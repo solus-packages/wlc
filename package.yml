@@ -1,0 +1,29 @@
+name       : wlc
+version    : 0.0.7
+release    : 1
+source     :
+    - https://github.com/Cloudef/wlc/releases/download/v0.0.7/wlc-0.0.7.tar.bz2 : 47e9b756d3fd621df913a6fbc9378c47aa8f9c3be7c2228a657a2411a7211979
+license    : MIT
+component  : desktop.library
+summary    : Wayland compositor library
+description: |
+    Wayland compositor library
+builddeps  :
+    - pkgconfig(dbus-1)
+    - pkgconfig(libinput)
+    - pkgconfig(pixman-1)
+    - pkgconfig(valgrind)
+    - pkgconfig(wayland-client)
+    - pkgconfig(wayland-egl)
+    - pkgconfig(wayland-protocols)
+    - pkgconfig(x11)
+    - pkgconfig(xcb-ewmh)
+    - pkgconfig(xcb-image)
+    - pkgconfig(xkbcommon)
+    - doxygen
+setup      : |
+    %cmake .
+build      : |
+    %make
+install    : |
+    %make_install

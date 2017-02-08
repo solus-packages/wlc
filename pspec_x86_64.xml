@@ -1,0 +1,49 @@
+<PISI>
+    <Source>
+        <Name>wlc</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>desktop.library</PartOf>
+        <Summary xml:lang="en">Wayland compositor library</Summary>
+        <Description xml:lang="en">Wayland compositor library
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>wlc</Name>
+        <Summary xml:lang="en">Wayland compositor library</Summary>
+        <Description xml:lang="en">Wayland compositor library
+</Description>
+        <PartOf>desktop.library</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>wlc-devel</Name>
+        <Summary xml:lang="en">Development files for wlc</Summary>
+        <Description xml:lang="en">Wayland compositor library
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">wlc</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/</Path>
+            <Path fileType="library">/usr/lib64/lib*.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-02-08</Date>
+            <Version>0.0.7</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
