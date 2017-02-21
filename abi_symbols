@@ -89,6 +89,7 @@ libwlc.so.0:wlc_keyboard_get_xkb_keymap
 libwlc.so.0:wlc_keyboard_get_xkb_state
 libwlc.so.0:wlc_log_set_handler
 libwlc.so.0:wlc_output_focus
+libwlc.so.0:wlc_output_get_gamma_size
 libwlc.so.0:wlc_output_get_mask
 libwlc.so.0:wlc_output_get_mutable_views
 libwlc.so.0:wlc_output_get_name
@@ -99,6 +100,7 @@ libwlc.so.0:wlc_output_get_sleep
 libwlc.so.0:wlc_output_get_views
 libwlc.so.0:wlc_output_get_virtual_resolution
 libwlc.so.0:wlc_output_schedule_render
+libwlc.so.0:wlc_output_set_gamma
 libwlc.so.0:wlc_output_set_mask
 libwlc.so.0:wlc_output_set_resolution
 libwlc.so.0:wlc_output_set_sleep
@@ -152,6 +154,7 @@ libwlc.so.0:wlc_view_from_surface
 libwlc.so.0:wlc_view_get_app_id
 libwlc.so.0:wlc_view_get_class
 libwlc.so.0:wlc_view_get_geometry
+libwlc.so.0:wlc_view_get_instance
 libwlc.so.0:wlc_view_get_mask
 libwlc.so.0:wlc_view_get_output
 libwlc.so.0:wlc_view_get_parent
@@ -163,6 +166,12 @@ libwlc.so.0:wlc_view_get_title
 libwlc.so.0:wlc_view_get_type
 libwlc.so.0:wlc_view_get_visible_geometry
 libwlc.so.0:wlc_view_get_wl_client
+libwlc.so.0:wlc_view_positioner_get_anchor
+libwlc.so.0:wlc_view_positioner_get_anchor_rect
+libwlc.so.0:wlc_view_positioner_get_constraint_adjustment
+libwlc.so.0:wlc_view_positioner_get_gravity
+libwlc.so.0:wlc_view_positioner_get_offset
+libwlc.so.0:wlc_view_positioner_get_size
 libwlc.so.0:wlc_view_send_below
 libwlc.so.0:wlc_view_send_to_back
 libwlc.so.0:wlc_view_set_geometry
