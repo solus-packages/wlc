@@ -1,8 +1,8 @@
 name       : wlc
-version    : 0.0.8
-release    : 2
+version    : 0.0.10
+release    : 3
 source     :
-    - https://github.com/Cloudef/wlc/releases/download/v0.0.8/wlc-0.0.8.tar.bz2 : 1a7d7758028b0caa75418268f59e2290420850d0f3226ecf74316405d2c5ace5
+    - https://github.com/Cloudef/wlc/releases/download/v0.0.10/wlc-0.0.10.tar.bz2 : f8273940eaceb0661d365d284aceef7cb0ca83e641b7722d818dcac464fb0b01
 license    : MIT
 component  : desktop.library
 summary    : Wayland compositor library
