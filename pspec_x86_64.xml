@@ -19,7 +19,8 @@
 </Description>
         <PartOf>desktop.library</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+            <Path fileType="library">/usr/lib64/libwlc.so.0</Path>
+            <Path fileType="library">/usr/lib64/libwlc.so.0.0.10</Path>
         </Files>
     </Package>
     <Package>
@@ -29,18 +30,22 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="3">wlc</Dependency>
+            <Dependency release="4">wlc</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include/</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
+            <Path fileType="header">/usr/include/wlc/defines.h</Path>
+            <Path fileType="header">/usr/include/wlc/geometry.h</Path>
+            <Path fileType="header">/usr/include/wlc/wlc-render.h</Path>
+            <Path fileType="header">/usr/include/wlc/wlc-wayland.h</Path>
+            <Path fileType="header">/usr/include/wlc/wlc.h</Path>
+            <Path fileType="library">/usr/lib64/libwlc.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/wlc.pc</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2017-07-28</Date>
-            <Version>0.0.10</Version>
+        <Update release="4">
+            <Date>2018-07-30</Date>
+            <Version>0.0.11</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
