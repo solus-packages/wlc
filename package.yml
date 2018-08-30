@@ -1,6 +1,6 @@
 name       : wlc
 version    : 0.0.11
-release    : 5
+release    : 6
 source     :
     - https://github.com/Cloudef/wlc/releases/download/v0.0.11/wlc-0.0.11.tar.bz2 : c2061f5d6c627688ea8b822ac5f4d3ba4d407b3f8d79267677ce4011b6390d22
 license    : MIT

@@ -2,8 +2,8 @@
     <Source>
         <Name>wlc</Name>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>desktop.library</PartOf>
@@ -30,7 +30,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="5">wlc</Dependency>
+            <Dependency release="6">wlc</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/wlc/defines.h</Path>
@@ -43,12 +43,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2018-08-12</Date>
+        <Update release="6">
+            <Date>2018-08-30</Date>
             <Version>0.0.11</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
